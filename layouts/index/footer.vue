@@ -1,6 +1,6 @@
 <template>
   <div class="bottom-0 bg-violet-900 w-auto justify-center flex ">
-    <button class="btn btn-primary btn-sm" @click="() => play">play</button>
+    <audio :src="music" controls/>
   </div>
 </template>
 
